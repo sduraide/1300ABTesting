@@ -1,0 +1,261 @@
+2020-10-14T13:26:58.067703+00:00 app[api]: Initial release by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:26:58.067703+00:00 app[api]: Release v1 created by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:26:58.193849+00:00 app[api]: Release v2 created by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:26:58.193849+00:00 app[api]: Enable Logplex by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:27:42.000000+00:00 app[api]: Build started by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:28:16.369087+00:00 app[api]: Deploy c86c163f by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:28:16.369087+00:00 app[api]: Release v3 created by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:28:16.389827+00:00 app[api]: Scaled to web@1:Free by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:28:20.421757+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-14T13:28:22.835937+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:28:22.841393+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-14T13:28:22.841433+00:00 app[web.1]: * Environment: production
+2020-10-14T13:28:22.841484+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-14T13:28:22.841523+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T13:28:22.841556+00:00 app[web.1]: * Debug mode: on
+2020-10-14T13:28:22.849988+00:00 app[web.1]: * Running on http://0.0.0.0:51254/ (Press CTRL+C to quit)
+2020-10-14T13:28:22.850765+00:00 app[web.1]: * Restarting with stat
+2020-10-14T13:28:23.169645+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:28:23.188892+00:00 app[web.1]: * Debugger is active!
+2020-10-14T13:28:23.192363+00:00 app[web.1]: * Debugger PIN: 166-361-810
+2020-10-14T13:28:23.206645+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T13:28:26.000000+00:00 app[api]: Build succeeded
+2020-10-14T13:28:31.058437+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:28:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:28:31.059538+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=34720abe-45f8-4d01-b80c-05e28253edf2 fwd="49.207.192.231" dyno=web.1 connect=1ms service=10ms status=200 bytes=8883 protocol=https
+2020-10-14T13:28:31.333755+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:28:31] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-14T13:28:31.334916+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=vast-lowlands-01411.herokuapp.com request_id=83e74166-2a7e-4597-93f9-5e9bd32cf2cc fwd="49.207.192.231" dyno=web.1 connect=1ms service=7ms status=200 bytes=1117 protocol=https
+2020-10-14T13:28:31.337171+00:00 app[web.1]: 10.47.153.32 - - [14/Oct/2020 13:28:31] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-14T13:28:31.349493+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=vast-lowlands-01411.herokuapp.com request_id=3306e450-e034-4e17-b124-45dfd97d03d4 fwd="49.207.192.231" dyno=web.1 connect=1ms service=13ms status=200 bytes=243856 protocol=https
+2020-10-14T13:28:31.581397+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:28:31] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:28:31.608217+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=vast-lowlands-01411.herokuapp.com request_id=c0185f18-d6b7-4c25-a19e-1f1bd21976be fwd="49.207.192.231" dyno=web.1 connect=1ms service=29ms status=200 bytes=618300 protocol=https
+2020-10-14T13:28:31.805435+00:00 app[web.1]: AB_TESTING: A 1602682111490 0 0 lidztsevs
+2020-10-14T13:28:31.806234+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=a6bb091b-644a-4667-9afc-1c650fe3d3fb fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:28:31.806269+00:00 app[web.1]: 10.5.225.117 - - [14/Oct/2020 13:28:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:28:31.824656+00:00 app[web.1]: 10.45.78.78 - - [14/Oct/2020 13:28:31] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:28:31.835023+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=vast-lowlands-01411.herokuapp.com request_id=1bbedcc4-fd84-4135-81cd-8072df36c0fe fwd="49.207.192.231" dyno=web.1 connect=0ms service=11ms status=200 bytes=132444 protocol=https
+2020-10-14T13:28:32.060834+00:00 app[web.1]: 10.5.225.117 - - [14/Oct/2020 13:28:32] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:28:32.068240+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=vast-lowlands-01411.herokuapp.com request_id=88d09d6d-67a2-4967-96dc-a2b81f0232ba fwd="49.207.192.231" dyno=web.1 connect=1ms service=11ms status=200 bytes=160216 protocol=https
+2020-10-14T13:28:33.063686+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:28:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-14T13:28:33.066144+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=vast-lowlands-01411.herokuapp.com request_id=154d3e39-2510-468c-a530-38cc68b90614 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=404 bytes=394 protocol=https
+2020-10-14T13:29:16.503567+00:00 app[web.1]: AB_TESTING: A 1602682111490 1602682156368 mp1 lidztsevs
+2020-10-14T13:29:16.504343+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:16] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:16.505495+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=815c1578-d43f-48de-80ec-10a111303c0c fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:24.834760+00:00 app[web.1]: AB_TESTING: A 1602682111490 1602682164699 mp1 lidztsevs
+2020-10-14T13:29:24.835572+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:24.838754+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=a3996bce-fc24-4f23-89b2-1659bdc82ef3 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:26.561415+00:00 app[web.1]: AB_TESTING: A 1602682111490 1602682165961 mp2 lidztsevs
+2020-10-14T13:29:26.562943+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:26.566127+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=83ff7aa1-0fb6-47e2-9dc0-f88092d50c06 fwd="49.207.192.231" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:27.699807+00:00 app[web.1]: AB_TESTING: A 1602682111490 1602682167563 mp3 lidztsevs
+2020-10-14T13:29:27.705797+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:27.706831+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=ccd80e33-cf0b-4478-af05-98ddfc0107e6 fwd="49.207.192.231" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:30.034732+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:30] "[37mGET /checkout?version=A&mp1=2&mp2=1&mp3=1&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:29:30.036044+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=2&mp2=1&mp3=1&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=0f57edfb-0721-4002-968d-30f7c167c68c fwd="49.207.192.231" dyno=web.1 connect=1ms service=12ms status=200 bytes=5236 protocol=https
+2020-10-14T13:29:30.353754+00:00 app[web.1]: AB_TESTING: C 1602682170186 0 0 lidztsevs
+2020-10-14T13:29:30.361499+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:30.362707+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=da07da43-efde-478f-9669-36804eadffb0 fwd="49.207.192.231" dyno=web.1 connect=1ms service=43ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:33.727401+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:33] "[37mGET /?version=A&mp1=2&mp2=1&mp3=1&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:29:33.731869+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=2&mp2=1&mp3=1&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=e6ddbbd7-fea3-4bd5-a703-4c18d4bfaf3e fwd="49.207.192.231" dyno=web.1 connect=1ms service=27ms status=200 bytes=8883 protocol=https
+2020-10-14T13:29:35.238018+00:00 app[web.1]: AB_TESTING: A 1602682173878 0 0 lidztsevs
+2020-10-14T13:29:35.243911+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:35] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:35.245329+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=8daa31af-6e9a-4f6c-b2d9-cede8ba28ddd fwd="49.207.192.231" dyno=web.1 connect=1ms service=43ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:42.274725+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:42] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:29:42.277865+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=31875932-6b7b-42d3-997d-5a8fdffbcf8d fwd="49.207.192.231" dyno=web.1 connect=1ms service=10ms status=200 bytes=8921 protocol=https
+2020-10-14T13:29:42.567653+00:00 app[web.1]: AB_TESTING: B 1602682182433 0 0 lidztsevs
+2020-10-14T13:29:42.577674+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:42.578770+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=c3816094-a275-4fdf-8021-fbb3b602f4cd fwd="49.207.192.231" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:44.296165+00:00 app[web.1]: AB_TESTING: B 1602682182433 1602682184157 mp1 lidztsevs
+2020-10-14T13:29:44.299997+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:44.301712+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=5ed144ff-926a-4463-a5d4-5f9446241992 fwd="49.207.192.231" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:45.287886+00:00 app[web.1]: AB_TESTING: B 1602682182433 1602682185154 mp2 lidztsevs
+2020-10-14T13:29:45.288542+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:45.289647+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=b3e73bba-0dca-4a82-909f-ba4670180955 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:29:56.366488+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:56] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:29:56.367630+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=a9a1efc1-b595-4229-87cb-8127685d1076 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=8921 protocol=https
+2020-10-14T13:29:56.690854+00:00 app[web.1]: AB_TESTING: B 1602682196554 0 0 lidztsevs
+2020-10-14T13:29:56.691750+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:29:56] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:29:56.698067+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=02aaa89c-8ff7-46d0-8ab9-eef6dd54a5ea fwd="49.207.192.231" dyno=web.1 connect=1ms service=12ms status=200 bytes=155 protocol=https
+2020-10-14T13:30:30.944946+00:00 app[web.1]: AB_TESTING: B 1602682196554 1602682230806 mp3 lidztsevs
+2020-10-14T13:30:30.945537+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:30:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:30:30.946252+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=85694bb5-02b3-4856-b192-70b7f01917d7 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:31:24.108937+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:24] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:31:24.109782+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=101dc872-5a2d-424c-be44-46b287696cde fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-14T13:31:24.384695+00:00 app[web.1]: AB_TESTING: A 1602682284250 0 0 lidztsevs
+2020-10-14T13:31:24.385792+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:31:24.388618+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=5a93700f-0ca3-4436-81a7-512540675cd2 fwd="49.207.192.231" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-14T13:31:29.366108+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:31:29.372795+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=9dc0465b-6574-4837-b8f5-3c49e2b59e0d fwd="49.207.192.231" dyno=web.1 connect=1ms service=13ms status=200 bytes=8883 protocol=https
+2020-10-14T13:31:30.605195+00:00 app[web.1]: AB_TESTING: A 1602682289512 0 0 lidztsevs
+2020-10-14T13:31:30.606704+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:31:30.607790+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=7d99dc3e-b83e-4509-8fb7-a5ef8b9d303b fwd="49.207.192.231" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-14T13:31:33.829228+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:33] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:31:33.830509+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=9eb56fd8-8c41-4a0a-b4b5-1e7c733df7f2 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-14T13:31:34.133769+00:00 app[web.1]: AB_TESTING: A 1602682293999 0 0 lidztsevs
+2020-10-14T13:31:34.134325+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:34] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:31:34.135143+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=8322459e-e73d-4fe6-a912-518421fd9310 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:31:57.007080+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:57] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:31:57.008331+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=904b09bd-018a-420d-977f-683a2aa25fd0 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=8921 protocol=https
+2020-10-14T13:31:57.803001+00:00 app[web.1]: AB_TESTING: B 1602682317200 0 0 lidztsevs
+2020-10-14T13:31:57.803758+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:57] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:31:57.804951+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=cace9552-0d6a-4369-810b-2e8e8bb49a65 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:31:59.113121+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:59] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:31:59.114165+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=9a840f6c-7bce-42da-9ed7-408ce5271cf3 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-14T13:31:59.389456+00:00 app[web.1]: AB_TESTING: A 1602682319255 0 0 lidztsevs
+2020-10-14T13:31:59.390073+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:31:59] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:31:59.390867+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=f9dcbcb7-53ba-4837-86e1-78bfe3e44ceb fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:32:01.703106+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:01] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:32:01.711009+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=0c94d52f-5679-4718-9f89-f18a455c8e5f fwd="49.207.192.231" dyno=web.1 connect=1ms service=10ms status=200 bytes=8883 protocol=https
+2020-10-14T13:32:02.474758+00:00 app[web.1]: AB_TESTING: A 1602682321859 0 0 lidztsevs
+2020-10-14T13:32:02.475487+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:02] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:32:02.476268+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=700ac25c-0319-4d4d-9bd7-a5f30faa0336 fwd="49.207.192.231" dyno=web.1 connect=3ms service=5ms status=200 bytes=155 protocol=https
+2020-10-14T13:32:04.797149+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:32:04.798340+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=62f83f9c-fc63-4088-ad4b-514c2973d6ca fwd="49.207.192.231" dyno=web.1 connect=1ms service=6ms status=200 bytes=8883 protocol=https
+2020-10-14T13:32:05.079123+00:00 app[web.1]: AB_TESTING: A 1602682324938 0 0 lidztsevs
+2020-10-14T13:32:05.079948+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:05] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:32:05.080988+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=aac3f157-e810-4db6-aaf6-ba71e3c8a17d fwd="49.207.192.231" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-14T13:32:08.170101+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:08] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:32:08.171397+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=4e2252ee-f7d2-47dc-acbe-c2cbb7cb248a fwd="49.207.192.231" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-14T13:32:09.384511+00:00 app[web.1]: AB_TESTING: A 1602682328314 0 0 lidztsevs
+2020-10-14T13:32:09.385599+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:32:09.386571+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=f251681b-74d9-466d-97a8-6f088b65fce0 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:32:10.844812+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:32:10.845908+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=057c96b7-2efd-4ba3-b00e-18dd02ebba86 fwd="49.207.192.231" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-14T13:32:11.127317+00:00 app[web.1]: AB_TESTING: A 1602682330988 0 0 lidztsevs
+2020-10-14T13:32:11.128677+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:11] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:32:11.129748+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=ffb343f7-f6e5-4b8b-9a7a-2793dac85db6 fwd="49.207.192.231" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-14T13:32:13.322938+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:13] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:32:13.329253+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=5c3b27e1-bde5-45cb-8b3e-2800e795127e fwd="49.207.192.231" dyno=web.1 connect=1ms service=8ms status=200 bytes=8921 protocol=https
+2020-10-14T13:32:13.606637+00:00 app[web.1]: AB_TESTING: B 1602682333468 0 0 lidztsevs
+2020-10-14T13:32:13.607183+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:13] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:32:13.608234+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=0b5d695c-3cec-461e-b944-5fe6edcde5f4 fwd="49.207.192.231" dyno=web.1 connect=3ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:32:14.581895+00:00 app[web.1]: AB_TESTING: B 1602682333468 1602682334449 mp2 lidztsevs
+2020-10-14T13:32:14.582366+00:00 app[web.1]: 10.69.237.10 - - [14/Oct/2020 13:32:14] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:32:14.583245+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=3df0e5ce-361b-4898-9037-7b1c6dc48c94 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:33:20.807099+00:00 app[web.1]: 10.30.91.53 - - [14/Oct/2020 13:33:20] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:33:20.816087+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=60b8c0d1-858c-41d5-87d1-68f042d614fc fwd="49.207.192.231" dyno=web.1 connect=0ms service=12ms status=200 bytes=8883 protocol=https
+2020-10-14T13:33:21.106235+00:00 app[web.1]: AB_TESTING: A 1602682400970 0 0 lidztsevs
+2020-10-14T13:33:21.106992+00:00 app[web.1]: 10.30.91.53 - - [14/Oct/2020 13:33:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:33:21.108981+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=4c423745-b2a3-4cee-a0c5-0be1b6f74f7d fwd="49.207.192.231" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:33:23.179683+00:00 app[web.1]: 10.30.91.53 - - [14/Oct/2020 13:33:23] "[37mGET /checkout?version=A&mp1=0&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:33:23.191824+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=0&mp2=0&mp3=0&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=cf9aa58f-9d42-45ea-96e9-498b992f566e fwd="49.207.192.231" dyno=web.1 connect=1ms service=17ms status=200 bytes=5236 protocol=https
+2020-10-14T13:33:23.487455+00:00 app[web.1]: AB_TESTING: C 1602682403350 0 0 lidztsevs
+2020-10-14T13:33:23.488265+00:00 app[web.1]: 10.30.91.53 - - [14/Oct/2020 13:33:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:33:23.490489+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=b6c0b162-cd9b-471b-9202-9c0bcea0de35 fwd="49.207.192.231" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-14T13:33:25.640985+00:00 app[web.1]: AB_TESTING: A 1602682405506 0 0 lidztsevs
+2020-10-14T13:33:25.641707+00:00 app[web.1]: 10.30.91.53 - - [14/Oct/2020 13:33:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:33:25.643749+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=13a66641-8dad-4665-876c-4cfa5684f250 fwd="49.207.192.231" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:33:28.112198+00:00 app[web.1]: 10.30.91.53 - - [14/Oct/2020 13:33:28] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:33:28.114295+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=57f31b04-fdad-4f6e-be36-efbdf3686e41 fwd="49.207.192.231" dyno=web.1 connect=0ms service=11ms status=200 bytes=8883 protocol=https
+2020-10-14T13:33:28.392599+00:00 app[web.1]: AB_TESTING: A 1602682408256 0 0 lidztsevs
+2020-10-14T13:33:28.393445+00:00 app[web.1]: 10.30.91.53 - - [14/Oct/2020 13:33:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:33:28.395210+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=3e065a0d-4def-461e-8940-abfe04f14e9b fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:38:44.541221+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:44] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:38:44.543477+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=7c45336b-edc6-430b-b594-d283ec652ec5 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=8921 protocol=https
+2020-10-14T13:38:44.871779+00:00 app[web.1]: AB_TESTING: B 1602682724739 0 0 lidztsevs
+2020-10-14T13:38:44.872649+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:38:44.874861+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=248b48e3-af4c-4819-b135-6748db68ff50 fwd="49.207.192.231" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:38:46.118717+00:00 app[web.1]: AB_TESTING: B 1602682724739 1602682725986 mp3 lidztsevs
+2020-10-14T13:38:46.119241+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:38:46.124318+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=9887cc01-729c-4982-8ae8-b5c6a246c8da fwd="49.207.192.231" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:38:47.835140+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:38:47.839993+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=43ada5c5-e2b4-4f17-87b3-229afd391ef2 fwd="49.207.192.231" dyno=web.1 connect=2ms service=4ms status=200 bytes=8921 protocol=https
+2020-10-14T13:38:48.111576+00:00 app[web.1]: AB_TESTING: B 1602682727979 0 0 lidztsevs
+2020-10-14T13:38:48.112079+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:48] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:38:48.115166+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=06ae1bdf-f4e4-4ca2-963b-7473be4c2187 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:38:51.736828+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:51] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:38:51.743549+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=c6f25e6c-0856-439b-9d4a-407c49504207 fwd="49.207.192.231" dyno=web.1 connect=0ms service=2ms status=200 bytes=8921 protocol=https
+2020-10-14T13:38:52.008646+00:00 app[web.1]: AB_TESTING: B 1602682731875 0 0 lidztsevs
+2020-10-14T13:38:52.009272+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:52] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:38:52.011536+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=4b5840fe-1262-42fb-b99d-5d267c1f8bb6 fwd="49.207.192.231" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:38:56.126060+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:56] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:38:56.128827+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=8a315179-1cfe-42bf-8741-ba9b433f84f4 fwd="49.207.192.231" dyno=web.1 connect=0ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-14T13:38:56.886549+00:00 app[web.1]: AB_TESTING: A 1602682736268 0 0 lidztsevs
+2020-10-14T13:38:56.887264+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:38:56] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:38:56.890111+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=20bf80af-1f3f-4e05-b391-7581a4b47070 fwd="49.207.192.231" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:39:04.000000+00:00 app[api]: Build started by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:39:35.401059+00:00 app[api]: Release v4 created by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:39:35.401059+00:00 app[api]: Deploy b0647029 by user shenandoah_duraideivamani@brown.edu
+2020-10-14T13:39:35.692450+00:00 heroku[web.1]: Restarting
+2020-10-14T13:39:35.710547+00:00 heroku[web.1]: State changed from up to starting
+2020-10-14T13:39:36.639266+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-14T13:39:36.755500+00:00 heroku[web.1]: Process exited with status 0
+2020-10-14T13:39:39.438219+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-14T13:39:41.947974+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:39:41.957175+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-14T13:39:41.957216+00:00 app[web.1]: * Environment: production
+2020-10-14T13:39:41.957279+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-14T13:39:41.957323+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T13:39:41.957354+00:00 app[web.1]: * Debug mode: on
+2020-10-14T13:39:41.981557+00:00 app[web.1]: * Running on http://0.0.0.0:55803/ (Press CTRL+C to quit)
+2020-10-14T13:39:41.985337+00:00 app[web.1]: * Restarting with stat
+2020-10-14T13:39:42.252302+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T13:39:42.316648+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:39:42.346540+00:00 app[web.1]: * Debugger is active!
+2020-10-14T13:39:42.347934+00:00 app[web.1]: * Debugger PIN: 467-995-796
+2020-10-14T13:39:44.000000+00:00 app[api]: Build succeeded
+2020-10-14T13:39:48.523180+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:39:48] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:39:48.525933+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=390a3223-ea2b-4966-a603-3485e714b51d fwd="49.207.192.231" dyno=web.1 connect=1ms service=13ms status=200 bytes=8883 protocol=https
+2020-10-14T13:39:48.861570+00:00 app[web.1]: AB_TESTING: A 1602682788727 0 0 lidztsevs
+2020-10-14T13:39:48.862254+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:39:48] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:39:48.863880+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=9fa320f3-f28b-44b6-87b8-635fa47743b5 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:39:54.917157+00:00 app[web.1]: AB_TESTING: A 1602682788727 1602682794294 mp1 lidztsevs
+2020-10-14T13:39:54.917936+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:39:54] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:39:54.920067+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=d7761284-b098-4c9c-9504-f8886875a902 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:39:58.319618+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:39:58] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:39:58.321458+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=0c637a2e-bd5e-4059-b805-eabdef24d8d8 fwd="49.207.192.231" dyno=web.1 connect=1ms service=5ms status=200 bytes=8985 protocol=https
+2020-10-14T13:39:58.601731+00:00 app[web.1]: AB_TESTING: B 1602682798464 0 0 lidztsevs
+2020-10-14T13:39:58.602699+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:39:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:39:58.610954+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=a88ffd3d-2aca-45c9-92fc-3322b38d5e5b fwd="49.207.192.231" dyno=web.1 connect=1ms service=11ms status=200 bytes=155 protocol=https
+2020-10-14T13:40:03.868936+00:00 app[web.1]: AB_TESTING: B 1602682798464 1602682803731 mp1 lidztsevs
+2020-10-14T13:40:03.869427+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:40:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:40:03.871315+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=83767766-8bd5-4030-9558-1a2024ec601e fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:40:07.038177+00:00 app[web.1]: AB_TESTING: B 1602682798464 1602682806898 mp1 lidztsevs
+2020-10-14T13:40:07.039039+00:00 app[web.1]: 10.5.185.29 - - [14/Oct/2020 13:40:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:40:07.041001+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=e9f8653f-5ba7-4130-b5c8-adb8d72db5a5 fwd="49.207.192.231" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-14T13:42:50.462818+00:00 app[web.1]: AB_TESTING: B 1602682798464 1602682969490 mp1 lidztsevs
+2020-10-14T13:42:50.463723+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:50] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:42:50.465174+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=6a14118b-dabd-41bc-84fb-d78fd369fc7a fwd="49.207.192.231" dyno=web.1 connect=1ms service=23ms status=200 bytes=155 protocol=https
+2020-10-14T13:42:51.099025+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:51] "[37mGET /checkout?version=B&mp1=3&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:42:51.100688+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=3&mp2=0&mp3=0&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=ace65020-fdb3-40ee-8aa2-5c761d2a7ecb fwd="49.207.192.231" dyno=web.1 connect=1ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-14T13:42:51.385478+00:00 app[web.1]: AB_TESTING: C 1602682971248 0 0 lidztsevs
+2020-10-14T13:42:51.386826+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:42:51.388086+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=1fb7c022-d884-450f-a227-e2ec4d410125 fwd="49.207.192.231" dyno=web.1 connect=3ms service=7ms status=200 bytes=155 protocol=https
+2020-10-14T13:42:53.829162+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:53] "[37mGET /?version=B&mp1=3&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:42:53.832670+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=3&mp2=0&mp3=0&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=a6825de4-7e49-438b-8e4f-2d5b721bdb20 fwd="49.207.192.231" dyno=web.1 connect=1ms service=6ms status=200 bytes=8985 protocol=https
+2020-10-14T13:42:54.119550+00:00 app[web.1]: AB_TESTING: B 1602682973982 0 0 lidztsevs
+2020-10-14T13:42:54.120066+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:54] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:42:54.121024+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=e77eb08d-4065-424d-9b5b-8e83a1cd0c8b fwd="49.207.192.231" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-14T13:42:55.916861+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:55] "[37mGET /?version=B&mp1=3&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:42:55.918049+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=3&mp2=0&mp3=0&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=8989055e-9da6-4ab6-a621-21b6f47b16b4 fwd="49.207.192.231" dyno=web.1 connect=0ms service=7ms status=200 bytes=8985 protocol=https
+2020-10-14T13:42:56.193270+00:00 app[web.1]: AB_TESTING: B 1602682976060 0 0 lidztsevs
+2020-10-14T13:42:56.193857+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:56] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:42:56.195701+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=07df9a1c-1e48-4762-9360-4d07adfecf80 fwd="49.207.192.231" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-14T13:42:59.759931+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:42:59] "[37mGET /?version=B&mp1=3&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:42:59.766184+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=3&mp2=0&mp3=0&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=a80ba908-20d4-477b-bb83-86bb08ad71a6 fwd="49.207.192.231" dyno=web.1 connect=1ms service=18ms status=200 bytes=8985 protocol=https
+2020-10-14T13:43:00.045578+00:00 app[web.1]: AB_TESTING: B 1602682979908 0 0 lidztsevs
+2020-10-14T13:43:00.048030+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:00] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:43:00.050788+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=b1904f79-97fe-4a91-9dbf-b60a804f68f4 fwd="49.207.192.231" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-14T13:43:03.802343+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:03] "[37mGET /?version=B&mp1=3&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:43:03.803900+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=3&mp2=0&mp3=0&mp4=0" host=vast-lowlands-01411.herokuapp.com request_id=23f55332-c5e2-4cbc-a504-40292010ebd4 fwd="49.207.192.231" dyno=web.1 connect=1ms service=3ms status=200 bytes=8985 protocol=https
+2020-10-14T13:43:04.571679+00:00 app[web.1]: AB_TESTING: B 1602682983945 0 0 lidztsevs
+2020-10-14T13:43:04.574079+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:43:04.575402+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=5b751247-a495-48c1-97f8-76c984a8d200 fwd="49.207.192.231" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-14T13:43:09.967057+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:09] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:43:09.969691+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=c2af1135-c79d-4f49-ba98-41fba37089fe fwd="49.207.192.231" dyno=web.1 connect=1ms service=9ms status=200 bytes=8883 protocol=https
+2020-10-14T13:43:10.282858+00:00 app[web.1]: AB_TESTING: A 1602682990149 0 0 lidztsevs
+2020-10-14T13:43:10.283785+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:10] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:43:10.284710+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=f57c936f-b00f-46c0-ad53-53639bd7c231 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:43:13.472925+00:00 app[web.1]: AB_TESTING: A 1602682990149 1602682993336 mp4 lidztsevs
+2020-10-14T13:43:13.473726+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:13] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:43:13.475094+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=baac7a53-271e-40cf-98f9-68b8a1ae9e15 fwd="49.207.192.231" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-14T13:43:15.027685+00:00 app[web.1]: AB_TESTING: A 1602682990149 1602682994423 mp3 lidztsevs
+2020-10-14T13:43:15.032244+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:15] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:43:15.033363+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=eb8b8565-4c39-4639-a1b5-0e4ef759f532 fwd="49.207.192.231" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-14T13:43:15.623995+00:00 app[web.1]: AB_TESTING: A 1602682990149 1602682995489 mp2 lidztsevs
+2020-10-14T13:43:15.624818+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:15] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:43:15.625947+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=993521a4-d286-464f-9a3c-3314cb70ff78 fwd="49.207.192.231" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:43:19.585305+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:19] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:43:19.588648+00:00 heroku[router]: at=info method=GET path="/" host=vast-lowlands-01411.herokuapp.com request_id=702df9e8-4374-4e85-ae7d-406b1662daf1 fwd="49.207.192.231" dyno=web.1 connect=4ms service=10ms status=200 bytes=8985 protocol=https
+2020-10-14T13:43:20.350975+00:00 app[web.1]: AB_TESTING: B 1602682999732 0 0 lidztsevs
+2020-10-14T13:43:20.397049+00:00 app[web.1]: 10.155.88.71 - - [14/Oct/2020 13:43:20] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:43:20.407236+00:00 heroku[router]: at=info method=POST path="/data" host=vast-lowlands-01411.herokuapp.com request_id=2abc0893-ebd8-45c5-b9d6-54185cec1a7f fwd="49.207.192.231" dyno=web.1 connect=1ms service=62ms status=200 bytes=155 protocol=https

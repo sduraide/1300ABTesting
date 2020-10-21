@@ -1,6 +1,6 @@
 /* Feel free to modify anything in this file.*/
 html body {
-	background-color:white;
+	background-color: #e8bb9a;
 }
 
 header {
@@ -12,35 +12,31 @@ header {
 	justify-content: left;
 	padding-left: 40px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vendor-wrapper img{
+    width: 20vw;
+    height: 15vw;
 }
 
 .vendor-photo {
-	width: 20vw;
-	height: 20vw;
+	max-width: 200px;
+	max-height: 150px;
 	padding-right: 20px;
 }
 
 .vendor-book-button {
-	font-size: 2em;
+    font-size: 2em;
+    background-color: red;
 }
 
-.content-pane {
-  padding: 40px;
-}
-
-.hoverImage .hover {
-  display: none;
-}
-
-.hoverImage:hover .hover {
-  display: inline;
-  width: 20vw;
-	height: 20vw;
-	padding-right: 20px;
-}
-.hoverImage:hover .vendor-photo {
-  display: none;
+.cart {
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
 }
 
 .content-pane {
@@ -49,15 +45,6 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.vendor-wrapper {
-	justify-content: left;
-	padding-left: 40px;
-	padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 .fa-stack[data-count]:after{
